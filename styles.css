@@ -109,23 +109,55 @@ img {
   justify-content: center;
 }
 .signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex: 1;
-  border: 2px solid red;
-  background-color: royalblue;
 }
-.footer {
-  flex: 1;
+
+.blue {
+  display: flex;
+  flex: 1 0 0;
+  background-color: #3882f6;
+  height: 200px;
+  margin: 100px;
+  padding: 2px 20px;
+  border-radius: 8px;
+  justify-content: space-around;
+}
+.signupnow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h3 {
+  margin: 2px 100px;
+  font-size: 28px;
+  font-weight: 900;
+}
+h4 {
+  font-size: 14px;
+  margin: 2px 96px;
+}
+.buttonsignup {
   border: 2px solid red;
-  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button.signup {
-  height: 30px;
+  height: 50px;
+  width: 100px;
+  font-weight: 900;
+  font-size: larger;
+  border-radius: 8px;
   background: royalblue;
   border: 2px solid white;
   color: white;
 }
 .myimg {
+  border-radius: 10%;
   width: 200px;
   height: 200px;
   object-fit: cover;
@@ -133,4 +165,23 @@ button.signup {
 .text {
   color: black;
   text-align: center;
+}
+button.buttonsignup {
+  height: 50px;
+  width: 100px;
+  font-weight: 900;
+  font-size: larger;
+  border-radius: 8px;
+  background: royalblue;
+  border: 2px solid white;
+  color: white;
+  align-self: center;
+}
+.footer {
+  padding: 8px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
 }
